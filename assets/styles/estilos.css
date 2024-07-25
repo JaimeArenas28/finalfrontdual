@@ -1,0 +1,148 @@
+.menu{
+    background-color: #2d6df6;
+}
+
+.banner{
+    background-image: url("../img/familia.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10%;
+}
+
+.botonChat{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+.cajaChat{
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.mensajeChat{
+    overflow-y: auto;
+    height: 80%;
+    padding-bottom: 20px;
+}
+
+.areaTextoChat{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10%;
+
+}
+
+.botonSend{
+    cursor: pointer;
+}
+
+.textoChat{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+}
+
+.icon{
+    font-size: 130PX;
+}
+
+.texto{
+    font-size: 30px;
+}
+.direcciones{
+    color: rgb(7, 7, 95);
+}
+
+.generalmayor{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.titulo{
+    color:  rgb(7, 7, 95);
+    font-size: 30px;
+    text-align: center;
+    margin: 1rem 1rem;
+}
+ 
+.card{
+    width: 27%;
+    height: 535px;
+    margin: 2rem 2rem;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid gray;
+}
+ 
+.Botoncard{
+    margin-left: 115px;
+}
+.imgcard{
+  width: 365px;
+  height: 250px;
+ 
+}
+.imgcard:hover{
+opacity:0.7;
+}
+ 
+.titulocard{
+    color: rgb(7, 7, 95) ;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+ 
+.contenido{
+    background-color: white;
+    text-align: justify;
+    font-size: 15px;
+}
+ 
+p{
+    text-align: justify;
+    padding: 1px;
+    margin: 10px;
+}
+
+.title{
+    color: rgb(7, 7, 95) ;
+    margin-left: 20px;
+    
+}
+
+.parrafo{
+    margin-right: 50%;
+}
+
+.generalcomentarios{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card2{
+    width: 28%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.imgavatar{
+    width: 50px;
+    height: 50px;
+
+}
+

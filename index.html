@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TigerApp</title>
+    <link rel="stylesheet" href="./assets/styles/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg menu navbar-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">TigerApp</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Preguntas frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Contactenos</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="avatar" role="button" data-bs-toggle="dropdown"></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#" id="botonsalir">Cerrar sesión</a>
+                    </li>
+                  </ul>
+                  </li>
+                  <li class="nav-item mt-2">
+                   <i class="bi bi-person-circle text-white fw-bold mt-5 fs-2"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+    <main>
+
+        <div class="banner">
+          <iframe width="500px" height="500px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=_tQLPBERE02ODHwzuet1gU9ZrI90jRxKptuKuniVahNUREdCVTExNVpUS1hHNE9MUzBOTzdEM0U2MC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+        </div>
+
+        <button class="btn btn-primary botonChat" id="botonChat">Chatea con TigerBot <i class="bi bi-chat-dots"></i></button>
+        
+        <div class="cajaChat display none" id="cajaChat">
+            <div class="p-4 mensajeChat" id="mensajeChat">
+              <p class="text-star"> <strong>Hola bienvenido</strong><i class="bi bi-hand-thumbs-up"></i></p>
+              <p class="text-end"></p>
+              
+               
+            </div>
+            <div class="areaTextoChat" id="areaTextoChat">
+              <div class="container">
+                <div class="row">
+                  <div class="col-10">
+                    <input type="text" class="form-control my-3" placeholder="Escribe tu pregunta..." id="textoChat">
+                  </div>
+                  <div class="col-2 mt-3">
+                    <i class="bi bi-box-arrow-in-right fs-4 botonSend" id="botonSend"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <section class="container-fluid g-0">
+          <div class="row">
+            <div class="col-12 my-5">
+              <img src="./assets/img/sura.jpg" alt="foto" class="img-fluid">
+            </div>
+          </div>
+          
+        </section>
+               
+        
+    </main>
+
+
+    <section>
+      <h1 class="titulo">
+          <b>NOTICIAS</b>
+          <br>
+      </h1>
+    <div id="PRODUCTOS" class="generalmayor">
+      <div class="card">
+          <div class="encabezado">
+              <a href=""><img src="./assets/img/alianza.jpeg" alt="esta imagen contiene la descripción del plan anual" class="imgcard"></a>
+              <h1 class="titulocard">
+                Nos unimos con Google Cloud para llegar a 10 millones de personas y mejorar sus experiencias digitales en salud
+              </h1>
+          </div>
+          <div class="contenido">
+              <p>
+              <br>
+              Seguros SURA Colombia anuncia un acuerdo de largo plazo con Google Cloud que tiene como objetivo principal acelerar su transformación digital, implementando nuevos procesos basados en el análisis de datos, la automatización, la inteligencia artificial y el uso de herramientas digitales que habilitarán nuevas opciones de gestión, con el fin de brindar mejores experiencias y productos innovadores, teniendo como premisa el cuidado y la seguridad de los datos e información de sus clientes.
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+             
+              </p>
+              <a class="Botoncard" href="https://www.segurossura.com.co/paginas/novedad.aspx?ID=58"><b>LEER MAS...</b></a>
+              <br>
+              <br>
+          </div>
+      </div>
+ 
+      <div class="card">
+          <div class="encabezado">
+              <a href=""><img src="./assets/img/vive mas.jpeg" alt="esta imagen contiene la descripcion al plan semestral" class="imgcard"></a>
+              <h1 class="titulocard">
+                SURA revoluciona la manera de adquirir hábitos saludables con el lanzamiento de la plataforma Vive Más
+              </h1>
+          </div>
+          <div class="contenido">
+              <p>
+              <br>
+              Seguros SURA lanza la plataforma Vive Más, un programa para ayudar a las personas a mejorar sus hábitos alimenticios, físicos y financieros, mientras premia a los usuarios por poner su bienestar en el primer lugar. En el 2021 uno de los principales motivos de deserción laboral en las empresas, fue la falta de condiciones que generen bienestar. Por eso, Vive Más también acompaña a las empresas para que sus colaboradores sean su prioridad. Más de 4.000 personas ya han utilizado esta plataforma que llegará a más de 3 millones de clientes y a más de 12.000 empresas que cuentan con una Póliza de Salud o con un Seguro de Vida
+              <br>
+              La mejor cobertura y asistencia. Este seguro no es el SOAT, lo complementa
+              </p>
+              <a class="Botoncard" href="https://www.segurossura.com.co/documentos/salud/comunicado-de-prensa-vive-mas.pdf"><b>LEER MAS...</b></a>
+              <br>
+              <br>
+          </div>
+          </div>
+      <div class="card">
+          <div class="encabezado">
+              <a href=""><img src="./assets/img/insurte.jpeg" alt="esta imagen contiene la descripcion del plan trimestral" class="imgcard"></a>
+              <h1 class="titulocard">
+                Suramericana lanza su insurtech: la nueva apuesta de Seguros SURA para incursionar en el mercado digital de América Latina
+              </h1>
+          </div>
+          <div class="contenido">
+              <p>
+              <br>
+              * La Compañía busca ser uno de los principales jugadores del ecosistema insurtech para 2025, pasando de una participación de canales directos de menos del 3% a más de un 10% sobre primas emitidas totales. 
+              <br>
+              <br>
+              * Con esta iniciativa se proyecta a llegar a 2.6 millones de nuevos clientes, desarrollar 22 soluciones voluntarias y democratizar el acceso a seguros en la región.
+              <br>
+              <br>
+              * El proyecto estima la participación de más de 250 personas en los próximos 5 años, de las cuales 100 estarán en Colombia.
+              <br>
+              <br>
+              
+            
+              </p>
+              <a class="Botoncard" href="https://www.segurossura.com.co/paginas/novedad.aspx?ID=57"><b>LEER MAS...</b></a>
+              <br>
+              <br>
+          </div>
+      </div>
+      
+ 
+     
+      
+  </div>
+  <section>
+    
+
+      <div class="content-center">
+        <div class="col-md-12">
+          <div>
+            <h1 class="titulo">
+              <b>PREGUNTAS FRECUENTES</b>
+              <br>
+          </h1>
+            <br>
+            <br>
+            <br>
+            <h3 class="title">¿Qué es la prima de seguro?</h3>
+            
+            <p class="parrafo">La prima de seguro es el monto que pagas periódicamente (mensual, trimestral o anualmente) para mantener tu cobertura de seguro activa.
+            
+            <h3 class="title">¿Cómo puedo saber qué cobertura es la mejor para mí?</h3>
+            
+            <p class="parrafo">Nuestro equipo de asesores está disponible para ayudarte a evaluar tus necesidades y recomendarte la cobertura que mejor se adapte a tu situación. También puedes utilizar nuestras herramientas en línea para comparar diferentes opciones.</p>
+            
+            <h3 class="title">¿Qué sucede si no pago mi prima a tiempo?</h3>
+            <p class="parrafo">Si no pagas tu prima a tiempo, tu cobertura podría ser suspendida o cancelada. Es importante mantener tus pagos al día para asegurarte de que estás protegido. Si tienes problemas para realizar un pago, contacta a nuestro equipo de atención al cliente para discutir tus opciones.</p>
+            
+            <h3 class="title">¿Qué cubre el seguro de hogar?</h3>
+            
+            <p class="parrafo">Nuestro seguro de hogar cubre daños a la propiedad, robo, incendios, y desastres naturales, entre otros. Puedes personalizar tu cobertura según tus necesidades.</p>
+            
+            <h3 class="title">¿Qué debo hacer en caso de un accidente de automóvil?</h3>
+            <p class="parrafo">Primero, asegúrate de que todos estén seguros. Luego, contacta a las autoridades si es necesario y recopila información de los involucrados. Finalmente, presenta una reclamación con nosotros lo antes posible.</p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <section>
+        <h1 class="titulo">
+          <b>COMENTARIOS CLIENTES</b>
+          <br>
+          <br>
+      </h1>
+        <div class="generalcomentarios">
+        <div class="card2">
+          <p>Es increíble tener acceso a ayuda en cualquier momento del día. El bot siempre está disponible para responder mis preguntas.¡Muy conveniente!</p>
+          <img src="./assets/img/avatar1.jpeg" alt="avatar1" class="imgavatar">
+         
+
+        </div>
+        <div class="card2">
+          <p>Me encantó lo intuitivo que es el bot. Las respuestas fueron claras y precisas, y no tuve que esperar nada. Muy bien hecho.</p>
+          <img src="./assets/img/avatar2.jpeg" alt="avatar2" class="imgavatar">
+          
+
+        </div>
+        <div class="card2">
+          <p>Tuve un problema con mi compra de la poliza y el bot lo solucionó rápidamente. No esperaba una solucion tan rápida. Fantástico servicio.</p>
+          <img src="./assets/img/avatar3.jpeg" alt="avatar3" class="imgavatar">
+         
+
+        </div>
+      </div>
+      </section>
+    <footer>
+      <div class="container text-center my-5 shadow p-5">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <h3 class="texto">TigerBot</h3>
+            <i class="bi bi-robot icon fs-1"></i>
+            <p>Nuestro chat TigerBot. Esta diseñado para interactuar con usuarios a través de mensajes de texto. Ofrece una experiencia fácil de usar, permitiendo una comunicación fluida y natural. Capaz de mantener conversaciones bidireccionales con los usuarios.</p>
+            <br>
+            <p>© Copyright SURA 2024</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <h3>Visítanos</h3>
+            <br>
+            <br>
+            <a class="direcciones" href="https://www.epssura.com/"><b>EPS SURA</b></a>
+            <br>
+            <a class="direcciones" href="https://www.sura.co/web/arl"><b>ARL SURA</b></a>
+            <br>
+            <a class="direcciones" href="https://www.segurossura.com.co/paginas/inicio.aspx"><b>SURAMERICANA</b></a><br>
+            <a class="direcciones" href="https://www.sura.co/web/ayudas-diagnosticas"><b>AYUDAS DIAGNOSTICAS</b></a>
+
+            
+          </div>
+          <div class="col-12 col-md-4">
+           
+                <h3>Conócenos en GitHub</h3>
+                <br>
+
+              <div class="row">
+                <div class="col-3 text-end">
+                  <i class="bi bi-github fs-1"></i>
+                </div>
+                <div class="col-9 text-start mt-2">
+                  <a href="https://github.com/JaimeArenas28" class="btn btn-primary w-100">Jaime Andres Arenas Gomez</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3 text-end">
+                  <i class="bi bi-github fs-1"></i>
+                </div>
+                <div class="col-9 text-start mt-2">
+                  <a href="https://github.com/dairorblandon" class="btn btn-primary w-100">Dairo Ignacio Rodriguez</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3 text-end">
+                  <i class="bi bi-github fs-1"></i>
+                </div>
+                <div class="col-9 text-start mt-2">
+                  <a href="https://github.com/EstefaZapata21" class="btn btn-primary w-100">Estefania Zapata Duque</a>
+                </div>
+              </div>
+       
+            
+            
+            
+          
+          </div>
+       </div>
+      </div>
+    </footer>
+
+    <script src="./src/services/servicio.js"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./src/controllers/controlador.js" type="module"></script>
+    <script src="./src/controllers/controladorSalida.js" type="module"></script>
+    <script src="./src/controllers/controladorChat.js" type="module"></script>
+</body>
+</html>
